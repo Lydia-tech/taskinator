@@ -77,7 +77,7 @@ return actionContainerEl;
   taskInfoEl.className = "task-info";
   taskInfoEl.innerHTML = "<h3 class='task-name'>" + taskDataObj.name + "</h3><span class='task-type'>" + taskDataObj.type + "</span>";
   listItemEl.appendChild(taskInfoEl);
-  console.log(list)
+ 
   // add entire list item to list
   
   var taskActionsEl = createTaskActions(taskIdCounter);
